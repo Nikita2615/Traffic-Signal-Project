@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    
+
+    <button>Bulb On Project</button>
+
+    <br><br>
+    <img id="bulb" src="bulboff.jfif" alt="">
+    <br><br>
+ 
+    <button onclick="bulbon()">Turn on Light</button>
+    <br><br>
+
+    <button onclick="bulbon()" style color="red">Stop</button>
+    <br><br>
+
+    <button onclick="bulboff()">Turn Off Light</button>
+    <br><br>
+
+    <script>
+        function bulbon() {
+            document.getElementById("bulb").src="bulbon.jfif";
+        };
+
+        function bulboff() {
+            document.getElementById("bulb").src="bulboff.jfif";
+        };
+    </script>
+
+
+    
+</body>
+</html>
